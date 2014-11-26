@@ -1,5 +1,7 @@
 .bss-slides{
   position: absolute;
+  background-color:#424242; 
+  width:1140;
   /*display: block;    */
 }
 .bss-slides:focus{
