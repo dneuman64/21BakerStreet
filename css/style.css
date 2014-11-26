@@ -1,0 +1,98 @@
+body {
+    background-image:url("../img/cuttingboard.jpg");
+    border-color: white;
+}
+
+header {
+    background-image:url("../img/Banner.png");
+    height:230px;
+    width:1140px;
+    color:black;
+    text-align:left;
+    border-radius: 10px;
+    margin:auto;
+    border: 1px solid;
+}
+footer {
+    height:50px;
+    width:1140px;
+    color:black;
+    background-color: white;
+    text-align:center;
+    border-radius: 10px;
+    margin:auto;
+    border: 1px solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+h2 { 
+    display: block;
+    font-size: 25px;
+    color:orange;
+    font-weight: bold;
+    text-align: center;
+}
+ul#menu li {
+    display: inline;
+}
+
+ul#menu li a {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px 4px 4px 4px;
+}
+
+ul#menu li a:hover {
+    background-color: orange;
+    color:white;
+}
+#body {
+    height:900px;
+    max-width:1140px;
+    margin:auto;
+    /*padding:5px;*/    
+    background-color: white;
+    /*opacity: 0.5;*/
+    border-radius: 10px;
+    border-color: green;
+    border: 1px solid;
+}
+#menubar {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin-top: 165px; 
+    float:left; 
+}
+/*a:link {
+    text-decoration: none;
+    color:black;
+}
+a:visited {
+    color:black;
+}
+a:hover {
+    color: orange;
+}*/
+#welcome {
+    margin-top:530px;
+    width:500px;
+    margin-left: 40px;
+    text-align: justify;
+    font-family: Arial, Helvetica, Sans-Serif;
+    font-size: 16px;
+    line-height: 150%;
+    float:left;
+}
+#specialty {
+    margin-top:550px;
+    width:500px;
+    margin-left: 590px;
+    text-align: justify;
+    font-family: Arial, Helvetica, Sans-Serif;
+    font-size: 16px;
+    line-height: 150%;
+    /*float:right;*/
+}
