@@ -1,8 +1,9 @@
 .bss-slides{
-  position: absolute;
-  background-color:#424242; 
-  width:1140;
-  /*display: block;    */
+  position: relative;   
+  padding-top:1px;
+  padding-bottom: 1px;
+  margin:auto;
+  width:1200px;
 }
 .bss-slides:focus{
  outline: 0;
@@ -10,6 +11,7 @@
 .bss-slides figure{
   position: absolute;
   top: 0;
+  width: 100%;
 }
 .bss-slides figure:first-child{
   position: relative;
@@ -20,11 +22,18 @@
   transition: opacity 1.2s;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  margin-left:30px;
+}
+.bss-slides .bss-show{
+  z-index: 2;
 }
 .bss-slides .bss-show img{
   opacity: 1;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  position: relative; 
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
 }
 
 .bss-slides figcaption{
@@ -32,8 +41,8 @@
   font-family: sans-serif;
   font-size: .8em;
   bottom: .75em;
-  right: .35em;
-  padding: .25em;
+  right: .85em;
+  padding: .85em;
   color: #fff;
   background: #000;
   background: rgba(0,0,0, .25);
@@ -41,9 +50,10 @@
   opacity: 0;
   -webkit-transition: opacity 1.2s;
   transition: opacity 1.2s;
+  margin-right:150px;
 }
 .bss-slides .bss-show figcaption{
-  z-index: 2;
+  z-index: 3;
   opacity: 1;
 }
 .bss-slides figcaption a{
@@ -55,7 +65,7 @@
   background: #000;
   background: rgba(0,0,0, .6);
   top: 50%;
-  z-index: 1;
+  z-index: 4;
   font-size: 2em;
   margin-top: -1.2em;
   opacity: .3;
