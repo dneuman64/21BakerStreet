@@ -22,9 +22,23 @@
   transition: opacity 1.2s;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  width:85%; 
-  height:65%;
+  width:1050px; 
+  height:500px;
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .bss-slides figure img{
+  opacity: 0;
+  -webkit-transition: opacity 1.2s;
+  transition: opacity 1.2s;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  width:210px; 
+  height:100px;
+}  
+}
+
+
 .bss-slides .bss-show{
   z-index: 2;
 }
@@ -37,7 +51,7 @@
 
 .bss-slides figcaption{
   position: absolute;
-  font-family: sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: .8em;
   bottom: .75em;
   right: .85em;
