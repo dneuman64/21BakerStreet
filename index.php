@@ -1,52 +1,27 @@
+<!DOCTYPE html>
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="css/style.css"></link>
   <link rel="stylesheet" type="text/css" href="css/simple-slideshow-styles.css"></link>
   <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-  <link rel="shortcut icon" href="img/icon.ico">
+  <link rel="shortcut icon" href="../img/icon.ico">
   <title>21 Baker Street - Home</title>
 </head>
 <body>
- 	 <header>
-    <div class="shell">
-      <section class="left location">
-              <a href="http://21bakerstreet.com">
-        <img src="img/logo.jpg" alt="21BakerStreet" style="height:120%;">
-      </a>
-      </section>
-      <section class="right social-search">
-        <span id="iconed-info"><img src="img/location.png" alt="location" style="height:25%;">800 21st Street SW Huron, Sd 57350</span>
-        <br>
-        <span id="iconed-info"><img src="img/phone.png" alt="phone" style="height:25%;">(605) 554-0400</span>
-        <br>
-        <a  href="http://facebook.com/21bakerstreet">
-        <img src="img/fbook.png" width ="50" alt="Facebook" border="0">
-      </a>
-      </section>
-    </div>
-   </header>
-   <nav id="main">
-      <ul id="menu">
-        <li id='menubar' ><a href="index.html">Home</a></li>
-        <li id='menubar'><a href="about.html">About</a></li>
-        <li id='menubar'><a href="menu.html">Menu</a></li>
-        <!-- <li id='menubar'><a href="order.html">Order</a></li> -->
-        <li id='menubar'><a href="contact.html">Contact Us</a></li>
-      </ul>  
-    </nav>
+ 	  <?php include 'header.php';?>
       <div style="background-color:#424242; text-align:center;">
         <div class="bss-slides bakery">
         <figure>
-            <img src="img/slideshow/BasilParmesanLoaves.jpg"/>
+            <img src="img/slideshow/basil_parmesan.jpg"/>
             <figcaption>Basil Parmesan Loaves</figcaption> 
         </figure>
         <figure>
-            <img src="img/slideshow/GermanStollenBread.jpg" />
+            <img src="img/slideshow/german_stollen.jpg" />
             <figcaption>German Stollen Bread</figcaption> 
         </figure>
          <figure>
-            <img src="img/slideshow/stuffingBread.jpg" />
+            <img src="img/slideshow/stuffing_bread.jpg" />
             <figcaption>Stuffing Bread</figcaption> 
         </figure>
           <figure>
@@ -62,7 +37,7 @@
             <figcaption>Apple Brown Sugar Coffee Cake</figcaption> 
         </figure>
         <figure>
-            <img src="img/slideshow/honeyRolls.jpg" />
+            <img src="img/slideshow/honey_rolls.jpg" />
             <figcaption>Honey Rolls</figcaption> 
         </figure>
         <figure>
@@ -74,7 +49,7 @@
             <figcaption>Ciabatta</figcaption> 
         </figure>
         <figure>
-            <img src="img/slideshow/Scones.jpg" width="1050" height="500" />
+            <img src="img/slideshow/scones.jpg"/>
             <figcaption>Mini Triple Chocolate Caramel Scones</figcaption> 
         </figure>
         </div> 
@@ -108,14 +83,7 @@
         </div>
         <br style="clear:both;"/>
       </div>
-  <footer>
-    <div id='text'>
-       21 Baker Street<br>
-      800 21st Street SW<br>
-      Huron, SD 57350<br>
-     Copyright 2014. All Rights Reserved.<br>
-    </div>
-  </footer>
+      <?php include 'footer.php';?>
   <script src="js/better-simple-slideshow.js"></script>
   <script>
       var opts = {

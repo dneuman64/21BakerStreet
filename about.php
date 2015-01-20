@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="css/style.css"></link>
@@ -8,33 +9,7 @@
   <title>21 Baker Street - About</title>
 </head>
 <body>
-       <header>
-    <div class="shell">
-      <section class="left location">
-              <a href="http://21bakerstreet.com">
-        <img src="img/logo.jpg" alt="21BakerStreet" style="height:120%;">
-      </a>
-      </section>
-      <section class="right social-search">
-        <span id="iconed-info"><img src="img/location.png" alt="location" style="height:25%;">800 21st Street SW Huron, Sd 57350</span>
-        <br>
-        <span id="iconed-info"><img src="img/phone.png" alt="phone" style="height:25%;">(605) 554-0400</span>
-        <br>
-        <a  href="http://facebook.com/21bakerstreet">
-        <img src="img/fbook.png" width ="50" alt="Facebook" border="0">
-      </a>
-      </section>
-    </div>
-   </header>
-   <nav id="main">
-      <ul id="menu">
-        <li id='menubar' ><a href="index.html">Home</a></li>
-        <li id='menubar'><a href="about.html">About</a></li>
-        <li id='menubar'><a href="menu.html">Menu</a></li>
-        <!-- <li id='menubar'><a href="order.html">Order</a></li> -->
-        <li id='menubar'><a href="contact.html">Contact Us</a></li>
-      </ul>  
-    </nav>
+      <?php include 'header.php';?>
       <div id='body' style="min-height:70%; margin-top:20px;">
         <img src="img/sourdough.jpg" height="200" class="textwrapleft">
         <h2>Our Story: Following a passion</h2>
@@ -64,13 +39,6 @@
             make your event perfect!
           </p>
        </div>
- <footer>
-    <div id='text'>
-       21 Baker Street<br>
-      800 21st Street SW<br>
-      Huron, SD 57350<br>
-     Copyright 2014. All Rights Reserved.<br>
-    </div>
-  </footer>
+ <?php include 'footer.php';?>
 </body>
 </html>

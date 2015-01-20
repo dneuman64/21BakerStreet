@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="css/style.css"></link>
@@ -16,33 +17,7 @@
 </script>
 </head>
 <body>
-       <header>
-    <div class="shell">
-      <section class="left location">
-              <a href="http://21bakerstreet.com">
-        <img src="img/logo.jpg" alt="21BakerStreet" style="height:120%;">
-      </a>
-      </section>
-      <section class="right social-search">
-        <span id="iconed-info"><img src="img/location.png" alt="location" style="height:25%;">800 21st Street SW Huron, Sd 57350</span>
-        <br>
-        <span id="iconed-info"><img src="img/phone.png" alt="phone" style="height:25%;">(605) 554-0400</span>
-        <br>
-        <a  href="http://facebook.com/21bakerstreet">
-        <img src="img/fbook.png" width ="50" alt="Facebook" border="0">
-      </a>
-      </section>
-    </div>
-   </header>
-   <nav id="main">
-      <ul id="menu">
-        <li id='menubar' ><a href="index.html">Home</a></li>
-        <li id='menubar'><a href="about.html">About</a></li>
-        <li id='menubar'><a href="menu.html">Menu</a></li>
-        <!-- <li id='menubar'><a href="order.html">Order</a></li> -->
-        <li id='menubar'><a href="contact.html">Contact Us</a></li>
-      </ul>  
-    </nav>
+       <?php include 'header.php';?>
     <div id='body'>
       <div id='contact_info'>
         <h2>Contact 21 Baker Street</h2>
@@ -56,7 +31,7 @@
               <h2>Send us a message!</h2>
               <form action="/webformmailer.php" method="post">
                 <input type="hidden" name="subject" value="Submission" />
-                <input type="hidden" name="redirect" value="thankyou.html" />
+                <!-- <input type="hidden" name="redirect" value="thankyou.html" /> -->
                 Name:<br><input type="text" name="name" size="40"/><br><br>
                 Email:<br> <input type="text" name="email" size="40"/><br><br>
                 Subject: <br> <input type="text" name="subject" size="40"/><br><br>
@@ -73,13 +48,6 @@
           <div style="text-align:center; margin-bottom:50px;">
               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2853.458427947149!2d-98.22824750000001!3d44.34163299999999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8787bc1bbdc125a7%3A0x35ea91cf85ae6e8a!2s800+21st+St+SW%2C+Huron%2C+SD+57350!5e0!3m2!1sen!2sus!4v1418444440319" width="600" height="450"></iframe>
           </div>
- <footer>
-    <div id='text'>
-       21 Baker Street<br>
-      800 21st Street SW<br>
-      Huron, SD 57350<br>
-     Copyright 2014. All Rights Reserved.<br>
-    </div>
-  </footer>
+ <?php include 'footer.php';?>
 </body>
 </html>
