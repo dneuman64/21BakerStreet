@@ -67,18 +67,18 @@
         </div>
         <div id='specialty'>
           <h2 style="text-align:center;">Our Specialties:</h2>
-          <div style="float:left;">
-            <ul><img src="img/bulletPoints.png" height="17px" width="17px">   Breads</ul>
-            <ul><img src="img/bulletPoints.png" height="17px" width="17px">   Pastries</ul>
-            <ul><img src="img/bulletPoints.png" height="17px" width="17px">   Muffins</ul>
-            <ul><img src="img/bulletPoints.png" height="17px" width="17px">   Rolls</ul>
-            <ul><img src="img/bulletPoints.png" height="17px" width="17px">   Bars</ul>
+          <div style="width: 47%; float:left;">
+            <ul><img src="img/bulletPoints.png" height="17px" width="17px"> Breads</ul>
+            <ul><img src="img/bulletPoints.png" height="17px" width="17px"> Pastries</ul>
+            <ul><img src="img/bulletPoints.png" height="17px" width="17px"> Muffins</ul>
+            <ul><img src="img/bulletPoints.png" height="17px" width="17px"> Rolls</ul>
+            <ul><img src="img/bulletPoints.png" height="17px" width="17px"> Bars</ul>
           </div>
-          <div style="float:right;">
-            <ul><img src="img/bulletPoints.png" height="17px" width="17px">   Salads</ul>
-            <ul><img src="img/bulletPoints.png" height="17px" width="17px">   Sandwiches</ul>
-            <ul><img src="img/bulletPoints.png" height="17px" width="17px">   Certified Organic Coffee</ul>
-            <ul><img src="img/bulletPoints.png" height="17px" width="17px">   Catering</ul>
+          <div style="width:53%; float:right;">
+            <ul><img src="img/bulletPoints.png" height="17px" width="17px"> Salads</ul>
+            <ul><img src="img/bulletPoints.png" height="17px" width="17px"> Sandwiches</ul>
+            <ul><img src="img/bulletPoints.png" height="17px" width="17px"> Catering</ul>
+            <ul><img src="img/bulletPoints.png" height="17px" width="17px">Organic Coffee</ul>
           </div>
         </div>
         <br style="clear:both;"/>

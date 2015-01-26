@@ -65,7 +65,7 @@ nav#main {
     line-height: 150%;
 }
 #welcome {
-    width:50%;
+    width:47%;
     float:left;
     /*margin-left:14%;*/
     text-align: justify;
@@ -74,10 +74,8 @@ nav#main {
     line-height: 150%;
 }
 #specialty {
-    /*width:35%;*/
+    width:50%;
     float: right;
-    min-height:40%;
-    /*margin-left: 50%;*/
     text-align: justify;
     font-family: 'Lato', sans-serif;
     font-size: 16px;
@@ -123,7 +121,7 @@ footer #text {
 #contact_form {
     /*float: right;*/
     /*margin-right: 100px;*/
-
+    width:40%;
 }
 #price {
     width:10%; 
@@ -145,47 +143,38 @@ footer #text {
     text-decoration:none;
 }
 #menumiddle {
-    width: 294px; /* Account for margins + border values */
+    /*width: 294px;  Account for margins + border values */
     float: left;
-    padding: 5px 15px;
-    margin: 0px 5px 5px 5px;
+    /*padding: 5px 15px;*/
+    /*margin: 0px 5px 5px 5px;*/
 }
 
 #menuleftsidebar {
-    width: 270px;
-    padding: 5px 15px;
+    width: 30%;
+    /*padding-right: 20px; */
     float: left;
 }
 #menurightsidebar {
-    width: 270px;
-    padding: 5px 15px;
+    /*width: 270px;*/
+    padding-left: 50px;
     float: left;
+}
+#map {
+    width:600px;
+    height:450px;
 }
 
 
 
 
-/************************************************************************************
-MEDIA QUERIES
-*************************************************************************************/
-/*
-#menumiddle {
-        width: 41%;
-        padding: 1% 4%;
-        margin: 0px 0px 5px 5px;
-        float: right;
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    #map {
+    width:300px;
+    height:225px;
     }
-    
-#menuleftsidebar {
-        clear: both;
-        padding: 1% 4%;
-        width: auto;
-        float: none;
-    }
-    #menurightsidebar {
-        clear: both;
-        padding: 1% 4%;
-        width: auto;
-        float: none;
-    }*/
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  
+}
 

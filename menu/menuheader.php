@@ -20,11 +20,11 @@ echo "
    </header>
    <nav id=\"main\">
       <ul id=\"menu\">
-        <li id='menubar' ><a href=\"../index.php\">Home</a></li>
-        <li id='menubar'><a href=\"../about.php\">About</a></li>
+        <li id='menubar' ><a href=\"../.\">Home</a></li>
+        <li id='menubar'><a href=\"../about\">About</a></li>
         <li id='menubar'><a href=\"../menu\">Menu</a></li>
-        <!-- <li id='menubar'><a href=\"../order.php\">Order</a></li> -->
-        <li id='menubar'><a href=\"../contact.php\">Contact Us</a></li>
+        <!-- <li id='menubar'><a href=\"../order\">Order</a></li> -->
+        <li id='menubar'><a href=\"../contact\">Contact Us</a></li>
       </ul>  
     </nav>
   ";

@@ -13,9 +13,9 @@
      <div id='menubody'>
       <div style="text-align:center;">
         <br>
-        <a href="../files/21BakerStreet122014.pdf" download="21BakerStretMenu.pdf" id="download">
+        <a href="../files/FebBake.pdf" download="FebBake.pdf" id="download">
           <i class="fa fa-cloud-download fa-3x"></i></a> 
-          Download a pdf version of our menu! 
+          Check out what we have baking this month! 
       </div>
       <div id='leftmenu'>
         <!-- Cold Sandwiches -->
@@ -30,7 +30,7 @@
         <p>Slices of pastrami and muenster cheese</p>
         <div id='price'>$4.50</div><div><h3>PEANUT BUTTER AND JELLY</h3></div>
         <p>Creamy peanut butter and your choice of grape or seedless raspberry jelly</p>
-        <div id='price'>$7.50</div><div><h3>THE COBBLER</h3></div>
+        <div id='price'>$7.50</div><div><h3>THE DAKOTAN</h3></div>
         <p>Avacado, Smoked Turkey, Bacon, and Bleu Cheese Spread</p>
         <div id='price'>$7.50</div><div><h3>THE BAKER STREET</h3></div>
         <p>All white meat chicken with an adobo dressing with sweet pecans</p>
@@ -38,8 +38,6 @@
         <p>Fresh Bell Pepper, Cucumber, Muenster and Cheddar Cheese with Spinach Spread</p>
         <div id='price'>$7.50</div><div><h3>DAKOTA BLT</h3></div>
         <p>Bacon, Mayonnaise, Tomatoes and Romaine Lettuce<p/>
-        <div id='price'>$7.50</div><div><h3>ITALIAN SUPREME</h3></div>
-        <p>Salami, Pepperoni, Muenster Cheese, Lettuce, Tomato and Onion with Roaster Garlic Cream Cheese Spread</p> 
         <h3> Add $1.50 to make any sandwich a lunch box</h3>
         <p> includes a bag of chips, fountain drink, and a cookie!</p>
         <br>
@@ -48,8 +46,8 @@
         <!-- Hot Sanwiches -->
         <h2>Hot Sandwiches</h2><hr>
         <div id='price'>$8.00</div><div><h3>THE JALABENERO</h3></div>
-        <p>Turkey, Ham, Pepperoni, Habanero Cheese, Bell Pepper, Tomato and Onion.<br>
-          Baked in a Jalapeno Garlic Calzone.</p>
+        <p>Turkey, Ham, chorizo, Habanero Cheese, Bell Pepper, Tomato and Onion.<br>
+          Baked in a Jalapeno Cheddar Garlic Calzone.</p>
         <div id='price'>$8.50</div><div><h3>THE RUBEN</h3></div>
         <p>Corned Beef, Bacon, Grilled Onion, Sauerkraut and Muenster Cheese.<br>
            Baked in a marble rye calzone.</p>
@@ -142,7 +140,7 @@
       <div 'bakery_box'>
         <hr>
         <h2 style="text-align:center;">Bakery Boxes</h2>
-        <p style="text-align:center;">Bakery Boxes include fresh fruit, housemade granola, and a bottle of juice or cup of house coffee</p>
+        <p style="text-align:center;">Bakery Boxes include housemade granola and a bottle of juice or cup of house coffee</p>
         <div id='menuleftsidebar'>
             <h3>WITH A PASTRY</h3>
             <h3>WITH A SAVORY</h3>
