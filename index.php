@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="keywords" content="Huron,South Dakota,Bakery,Fresh Bread, 21 Baker Street, Cookies, Sandwich, Sandwiches" />
   <link rel="stylesheet" type="text/css" href="css/style.css"></link>
   <link rel="stylesheet" type="text/css" href="css/simple-slideshow-styles.css"></link>
   <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
@@ -62,7 +63,7 @@
            and sandwiches you've ever tasted. We use only the best ingredients and make all of our delicious treats
            with love! You will love our delicious sandwiches on freshly baked breads or a delicious breakfast pastry with
            a hot cup of certified organic coffee! Stop by to see (and smell) what we have baking for you today.
-           <br><br><b> OPEN AT 6:00 AM DAILY</b>  
+           <br><br><b> OPEN MONDAY - SATURDAY FROM 6:00 AM to 6:00 PM</b>  
           </p>
         </div>
         <div id='specialty'>

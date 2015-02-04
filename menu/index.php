@@ -38,23 +38,23 @@
         <p>Fresh Bell Pepper, Cucumber, Muenster and Cheddar Cheese with Spinach Spread</p>
         <div id='price'>$7.50</div><div><h3>DAKOTA BLT</h3></div>
         <p>Bacon, Mayonnaise, Tomatoes and Romaine Lettuce<p/>
-        <h3> Add $1.50 to make any sandwich a lunch box</h3>
-        <p> includes a bag of chips, fountain drink, and a cookie!</p>
+        <h3> Add $2.00 to make any salad a lunch box</h3>
+        <p> Includes a fountain drink and a bag of chips or a cookie!</p>
         <br>
       </div>
       <div id='rightmenu'>
         <!-- Hot Sanwiches -->
         <h2>Hot Sandwiches</h2><hr>
-        <div id='price'>$8.00</div><div><h3>THE JALABENERO</h3></div>
-        <p>Turkey, Ham, chorizo, Habanero Cheese, Bell Pepper, Tomato and Onion.<br>
+        <div id='price'>$8.50</div><div><h3>THE JALABENERO</h3></div>
+        <p>Turkey, Ham, Chorizo, Habanero Cheese, Bell Pepper, Tomato and Onion.<br>
           Baked in a Jalapeno Cheddar Garlic Calzone.</p>
         <div id='price'>$8.50</div><div><h3>THE RUBEN</h3></div>
         <p>Corned Beef, Bacon, Grilled Onion, Sauerkraut and Muenster Cheese.<br>
            Baked in a marble rye calzone.</p>
         <div id='price'>$8.50</div><div><h3>CHICKEN BACON RANCH</h3></div>
         <p>Chicken Breast, Bacon, Mozzerella <br> Baked in a Spinach and Red Pepper Calzone</p>   
-        <h3> Add $1.50 to make any sandwich a lunch box</h3>
-        <p> includes a bag of chips, fountain drink, and a cookie!</p>
+        <h3> Add $2.00 to make any salad a lunch box</h3>
+        <p> Includes a fountain drink and a bag of chips or a cookie!</p>
         <br>
         <!-- Salads -->
         <h2>Salads</h2><hr>
@@ -64,8 +64,8 @@
         <p>Ham, Turkey, Boiled Egg, Bacon, Onion, Cheddar Cheese, Tomatoes</p>
         <div id='price'>$7.50</div><div><h3>CHICKEN BREAST</h3></div>
         <p>Seasoned Chicken Strips, Onion, Cucumber, Tomatoes, Cheese, Candied Pecans, Craisins</p>
-        <h3> Add $1.50 to make any salad a lunch box</h3>
-        <p> Includes a bag of chips, fountain drink, and a cookie!</p>
+        <h3> Add $2.00 to make any salad a lunch box</h3>
+        <p> Includes a fountain drink and a bag of chips or a cookie!</p>
         <br>
       </div>
       <br style="clear:both;"/>

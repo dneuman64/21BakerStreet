@@ -12,7 +12,8 @@
        <?php include 'header.php';?>
     <div id='body'>
        <div style="float:right; margin-bottom:50px; margin-right:50px; width: 40%">
-              <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2853.458427947149!2d-98.22824750000001!3d44.34163299999999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8787bc1bbdc125a7%3A0x35ea91cf85ae6e8a!2s800+21st+St+SW%2C+Huron%2C+SD+57350!5e0!3m2!1sen!2sus!4v1418444440319"></iframe>
+              <!-- <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2853.458427947149!2d-98.22824750000001!3d44.34163299999999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8787bc1bbdc125a7%3A0x35ea91cf85ae6e8a!2s800+21st+St+SW%2C+Huron%2C+SD+57350!5e0!3m2!1sen!2sus!4v1418444440319"></iframe> -->
+              <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2853.4584279471483!2d-98.22824800000001!3d44.34163300000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8787bc1bbdb89bc9%3A0xd3c48300c95063c5!2s21+Baker+Street!5e0!3m2!1sen!2sus!4v1423020779467"></iframe>
           </div>
       <div id='contact_info'>
         <h2>Contact 21 Baker Street</h2>
@@ -22,7 +23,7 @@
               <p>Huron, SD 57350</p>
           </div>
           <br><br>
-            <div id='contact_form'>
+            <!-- <div id='contact_form'>
               <h2>Send us a message!</h2>
               <form name="messageform" method="post" action="send_message.php">
                 * Name:<br><input type="text" name="name" size="40"/><br><br>
@@ -32,7 +33,7 @@
                 * Message:<br><textarea name="message" cols="40" rows="10"></textarea><br><br>
                 <input type="submit" name="submit" value="Submit"/>
               </form>
-            </div>
+            </div> -->
             <br style="clear:both;"/>
     </div>
     <br><br>
