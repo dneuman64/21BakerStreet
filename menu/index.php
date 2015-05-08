@@ -11,12 +11,12 @@
 <body>
        <?php include 'menuheader.php';?>
      <div id='menubody'>
-      <div style="text-align:center;">
+     <!--  <div style="text-align:center;">
         <br>
         <a href="../files/FebBake.pdf" download="FebBake.pdf" id="download">
           <i class="fa fa-cloud-download fa-3x"></i></a> 
           Check out what we have baking this month! 
-      </div>
+      </div> -->
       <div id='leftmenu'>
         <!-- Cold Sandwiches -->
         <h2>Cold Sandwiches</h2>
@@ -24,12 +24,14 @@
         <p>All of our cold sandwiches are made with red onion, romaine lettuce, sliced tomato, bell pepper, dijon mustard, mayonnaise, salt and pepper, and your choice from the breads of the day.</p>
         <div id='price'>$6.50</div><div><h3>HAM AND SWISS</h3></div>
         <p>Deli slices of honey smoked ham and swiss cheese</p>
+        <div id='price'>$6.50</div><div><h3>HAM AND CHEDDAR</h3></div>
+        <p>Deli slices of honey smoked ham and cheddar cheese</p>
         <div id='price'>$6.50</div><div><h3>TURKEY AND MUENSTER</h3></div>
         <p>Slices of smoked turkey and muenster cheese</p>
         <div id='price'>$7.50</div><div><h3>PASTRAMI AND MUENSTER</h3></div>
         <p>Slices of pastrami and muenster cheese</p>
-        <div id='price'>$4.50</div><div><h3>PEANUT BUTTER AND JELLY</h3></div>
-        <p>Creamy peanut butter and your choice of grape or seedless raspberry jelly</p>
+<!--         <div id='price'>$4.50</div><div><h3>PEANUT BUTTER AND JELLY</h3></div>
+        <p>Creamy peanut butter and your choice of grape or seedless raspberry jelly</p> -->
         <div id='price'>$7.50</div><div><h3>THE DAKOTAN</h3></div>
         <p>Avacado, Smoked Turkey, Bacon, and Bleu Cheese Spread</p>
         <div id='price'>$7.50</div><div><h3>THE BAKER STREET</h3></div>
@@ -38,7 +40,7 @@
         <p>Fresh Bell Pepper, Cucumber, Muenster and Cheddar Cheese with Spinach Spread</p>
         <div id='price'>$7.50</div><div><h3>DAKOTA BLT</h3></div>
         <p>Bacon, Mayonnaise, Tomatoes and Romaine Lettuce<p/>
-        <h3> Add $2.00 to make any salad a lunch box</h3>
+        <h3> Add $2.00 to make any sandwich a lunch box</h3>
         <p> Includes a fountain drink and a bag of chips or a cookie!</p>
         <br>
       </div>
@@ -53,7 +55,7 @@
            Baked in a marble rye calzone.</p>
         <div id='price'>$8.50</div><div><h3>CHICKEN BACON RANCH</h3></div>
         <p>Chicken Breast, Bacon, Mozzerella <br> Baked in a Spinach and Red Pepper Calzone</p>   
-        <h3> Add $2.00 to make any salad a lunch box</h3>
+        <h3> Add $2.00 to make any sandwich a lunch box</h3>
         <p> Includes a fountain drink and a bag of chips or a cookie!</p>
         <br>
         <!-- Salads -->

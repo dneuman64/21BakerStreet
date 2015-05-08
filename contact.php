@@ -21,6 +21,9 @@
             <h3>Email:</h3> <a href="mailto:info@21bakerstreet.com">info@21bakerstreet.com</a>
             <h3>Visit:</h3> <p>800 21st Street SW</p> 
               <p>Huron, SD 57350</p>
+            <h3>Hours:</h3>
+            <p>MON - FRI FROM 6:00 AM to 6:00 PM</p>
+            <p>SAT FROM 6:00 AM to 5:00 PM</p>   
           </div>
           <br><br>
             <!-- <div id='contact_form'>
