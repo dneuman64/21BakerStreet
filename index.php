@@ -67,8 +67,8 @@
            and sandwiches you've ever tasted. We use only the best ingredients and make all of our delicious treats
            with love! You will love our delicious sandwiches on freshly baked breads or a delicious breakfast pastry with
            a hot cup of certified organic coffee! Stop by to see (and smell) what we have baking for you today.
-           <br><br><b>MON - FRI FROM 6:00 AM to 6:00 PM</b><br>
-           <b>SAT FROM 6:00 AM to 5:00 PM</b>    
+           <br><br><b>We are open Monday - Saturday</b><br>
+           <b></b>    
           </p>
         </div>
         <div id='specialty'>
